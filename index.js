@@ -8,5 +8,5 @@ function headNode (node, collection) {
 
 function next (node, collection) {
   const nextAddress = node[next];
-  return collection[nextNode]
+  return collection[`${nextNode}`]
 }
