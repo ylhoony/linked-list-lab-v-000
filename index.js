@@ -7,5 +7,8 @@ function headNode (linkedList, collection) {
 }
 
 function next (head, collection) {
-  
+  let node = head;
+  for(let i = 0; i < collection.length; i++) {
+    
+  }
 }
