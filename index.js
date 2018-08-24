@@ -2,6 +2,6 @@ function getName (node) {
   return node.name
 }
 
-function headNode () {
-  
+function headNode (node) {
+  console.log(node)
 }
