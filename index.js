@@ -11,8 +11,9 @@ function next (node, collection) {
   return collection[`${nextAddress}`]
 }
 
-function nodeAt (index, node, collection) {
+function nodeAt (index, linkedList, collection) {
   console.log(index)
-  console.log(node)
+  console.log(linkedList)
   console.log(collection)
+  
 }
