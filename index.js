@@ -9,9 +9,9 @@ function headNode (node, collection) {
 function next (head, collection) {
   console.log(head)
   console.log(collection)
-  // let node = head;
-  // for(let i = 0; i < collection; i++) {
-  //   node = next(node);
-  // }
-  // return node;
+  let node = head;
+  for(let i = 0; i < collection; i++) {
+    node = next(node);
+  }
+  return node;
 }
