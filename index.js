@@ -7,6 +7,6 @@ function headNode (node, collection) {
 }
 
 function next (node, collection) {
-  const nextNode = node[next];
-  return 
+  const nextAddress = node[next];
+  return collection[nextNode]
 }
