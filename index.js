@@ -6,7 +6,7 @@ function headNode (node, collection) {
   return collection[node]
 }
 
-function next (head, collection) {
+function next (node, collection) {
   console.log(head)
   console.log(collection)
   let node = head;
