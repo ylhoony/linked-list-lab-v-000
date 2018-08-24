@@ -6,4 +6,6 @@ function headNode (linkedList, collection) {
   return collection[linkedList]
 }
 
-function next ()
+function next (head, collection) {
+  
+}
