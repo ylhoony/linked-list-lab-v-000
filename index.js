@@ -2,13 +2,15 @@ function getName (node) {
   return node.name
 }
 
-function headNode (linkedList, collection) {
-  return collection[linkedList]
+function headNode (node, collection) {
+  console.log(node)
+  console.log(collection)
+  // return collection[linkedList]
 }
 
 function next (head, collection) {
-  let node = head;
-  for(let i = 0; i < collection; i++) {
-    node = next(node);
-  }
+  // let node = head;
+  // for(let i = 0; i < collection; i++) {
+  //   node = next(node);
+  // }
 }
