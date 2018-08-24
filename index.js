@@ -12,5 +12,7 @@ function next (node, collection) {
 }
 
 function nodeAt (index, node, collection) {
-  
+  console.log(index)
+  console.log(node)
+  console.log(collection)
 }
