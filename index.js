@@ -10,3 +10,7 @@ function next (node, collection) {
   const nextAddress = node.next;
   return collection[`${nextAddress}`]
 }
+
+function nodeAt () {
+  
+}
