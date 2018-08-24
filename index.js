@@ -7,7 +7,7 @@ function headNode (node, collection) {
 }
 
 function next (node, collection) {
-  console.log(head)
+  
   console.log(collection)
   let node = head;
   for(let i = 0; i < collection; i++) {
