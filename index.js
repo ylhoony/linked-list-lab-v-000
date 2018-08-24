@@ -7,8 +7,9 @@ function headNode (node, collection) {
 }
 
 function next (head, collection) {
-  // let node = head;
-  // for(let i = 0; i < collection; i++) {
-  //   node = next(node);
-  // }
+  let node = head;
+  for(let i = 0; i < collection; i++) {
+    node = next(node);
+  }
+  return node;
 }
