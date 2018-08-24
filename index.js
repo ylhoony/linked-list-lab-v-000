@@ -3,9 +3,7 @@ function getName (node) {
 }
 
 function headNode (node, collection) {
-  console.log(node)
-  console.log(collection)
-  // return collection[linkedList]
+  return collection[node]
 }
 
 function next (head, collection) {
