@@ -7,7 +7,7 @@ function headNode (node, collection) {
 }
 
 function next (node, collection) {
-  const nextAddress = node[next];
+  const nextAddress = node.next;
   console.log(nextAddress)
   console.log(collection[`${nextAddress}`])
   return collection[`${nextAddress}`]
